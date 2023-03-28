@@ -1,5 +1,5 @@
 spring:
-# datasource, jpa 설정 모두 삭제하면 자동으로 메모리 모드로 테스트용 h2 db가 뜸
+# datasource, jpa 설정 모두 삭제하거나 url을 jdb2:h2:mem:test로 하면 메모리 모드로 테스트용 h2 db가 뜸
 #  datasource:
 #    url: jdbc:h2:mem:test
 #    username: sa
